@@ -1306,7 +1306,7 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				text-transform: uppercase;
+				text-transform: none;
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
@@ -1635,4 +1635,8 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+		#intro {
+			text-transform: capitalize;
 		}
